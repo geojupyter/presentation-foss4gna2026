@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "GeoJupyter @ FOSS4G NA"
+  authors:
+    - name: "Maryam Hosseini"
+      orcid: "0000-0002-4088-810X"
+    - name: "Matt Fisher"
+      orcid: "0000-0003-3260-5445"
+  license: "MIT"
+  github: &repo-url "https://github.com/geojupyter/presentation-foss4gna2026"
+  exclude:
+    - "_*"
+    - "README.md"
+  plugins:
+    - "https://raw.githubusercontent.com/mfisher87/mystmd-plugin-emoji-shortcodes/refs/heads/main/emoji-shortcodes.mjs"
+site:
+  template: "book-theme"
+  actions:
+    - title: "GeoJupyter home"
+      url: "https://geojupyter.org"
+    - title: "View source"
+      url: *repo-url
+  options:
+    hide_toc: true
+    hide_outline: true
+    favicon: "assets/images/logo.png"
+    logo: "assets/images/logo.png"
+    logo_text: "GeoJupyter @ FOSS4G NA 2026"

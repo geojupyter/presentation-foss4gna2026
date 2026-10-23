@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Matt Fisher <mfisher87@gmail.com>"]
+channels = ["conda-forge"]
+name = "presentation-foss4gna2026"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+render = "myst build --strict --html"
+preview = "myst start"
+
+[dependencies]
+mystmd = ">=1.11.0"
