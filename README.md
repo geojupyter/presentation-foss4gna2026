@@ -25,3 +25,6 @@ Any changes to the website content will trigger an automatic re-render.
 ```bash
 pixi run render
 ```
+
+
+## [Our private planning notes](https://docs.google.com/document/d/1wcC4_XqlEs7Y1Q-M06rZol7psSnA9-sFw_fel_5gqGA/edit?tab=t.m3fpu16lytep#heading=h.evvab6sv3bbv)
